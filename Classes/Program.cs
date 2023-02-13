@@ -1,10 +1,26 @@
-﻿namespace Classes
+﻿using Classes;
+
+namespace Classes
 {
-    public class Program
+    internal class Program
     {
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            car myCar = new car();
+            myCar.Make = "Honda";
+            myCar.Model = "Accord";
+            myCar.Year = 2022;
+                
+
+
+
+
+
+
+
+
+           
         }
     }
 }
